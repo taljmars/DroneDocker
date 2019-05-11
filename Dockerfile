@@ -20,6 +20,8 @@ RUN echo "Installing drone server"
 #RUN chmod +x install.bash
 #RUN ./install.bash
 
+EXPOSE 9024
+
 RUN chmod +x deployServer.sh
 RUN ./deployServer.sh
 

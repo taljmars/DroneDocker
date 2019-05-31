@@ -10,7 +10,7 @@ RUN adduser --disabled-password --gecos "" admin
 
 WORKDIR /home/admin/
 RUN echo "Downloading the latest drone server images"
-RUN wget https://github.com/taljmars/DroneServer/raw/master/ServerInstallation/Linux-lite/ServerCore-2.1.4.RELEASE-linux.tar
+RUN wget https://github.com/taljmars/DroneServer/raw/master/ServerInstallation/Linux-lite/ServerCore-2.1.5.RELEASE-linux.tar
 RUN wget https://github.com/taljmars/DroneServer/raw/master/ServerInstallation/Linux-lite/deployServer.sh
 
 
